@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/width"
+    android:layout_height="@dimen/height"
+    android:background="@drawable/shape"
+    android:id="@+id/back_layout"
+    android:layout_gravity="center">
+
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="60dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="200dp"
+       android:src="@mipmap/android2" />
+   <com.card.businesscard2.tool.RoundImageView
+       android:id="@+id/back_head"
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:layout_centerInParent="true"
+       android:src="@mipmap/head160_195"
+       android:scaleType="centerCrop"
+       android:padding="6dp"
+       android:layout_marginTop="60dp"
+       />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="座右铭:"
+       android:textSize="20dp"
+       android:textColor="@color/colorFontWhite"
+       android:layout_marginTop="60dp"
+       android:layout_marginLeft="10dp"
+       />
+   <LinearLayout
+       android:layout_width="150dp"
+       android:layout_height="180dp"
+       android:layout_marginTop="60dp"
+       android:background="@drawable/rightshape"
+       android:layout_marginLeft="10dp"
+       >
+      <TextView
+          android:id="@+id/motto"
+          android:layout_width="130dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:layout_marginLeft="10dp"
+          android:maxWidth="130dp"
+          android:text="@string/defaultMotto"/>
+
+   </LinearLayout>
+
+
+
+
+
+</LinearLayout>

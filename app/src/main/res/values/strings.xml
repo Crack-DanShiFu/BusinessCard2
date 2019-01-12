@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BusinessCard2</string>
+    <string name="defaultame">黄晓明</string>
+    <string name="defaultPhone">15558586666</string>
+    <string name="defaultEmail">tomcat@163.com</string>
+    <string name="defaultAddress">深圳市南山区解放大道28号</string>
+    <string name="defaultSpecialty">Android开发/系统运维</string>
+    <string name="defaultMotto">失败是成功之母</string>
+</resources>
